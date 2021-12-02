@@ -1,0 +1,28 @@
+{
+  "name": "chessonline",
+  "version": "1.0.0",
+  "description": "online live chess app",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryStar/ChessOnline.git"
+  },
+  "author": "Gregory Star",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoryStar/ChessOnline/issues"
+  },
+  "homepage": "https://github.com/GregoryStar/ChessOnline#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
